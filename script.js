@@ -4,11 +4,11 @@ function handleClick(action) {
   if (action === 'buy') {
     // 添加动画效果
     responseElement.style.opacity = '0';
-    responseElement.textContent = '快上号！';
+    responseElement.textContent = '爱你！';
     // 触发重绘以实现淡入效果
     setTimeout(() => responseElement.style.opacity = '1', 50);
   } else {
-    responseElement.textContent = '😭';
+    responseElement.textContent = '再给你一次选择的机会';
     responseElement.style.opacity = '1';
   }
 }
